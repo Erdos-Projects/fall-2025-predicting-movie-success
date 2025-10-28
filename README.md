@@ -14,11 +14,11 @@ Question we are asking: Can large scale aggregates of review data predict critic
 7. Form an aggregate of the highest $n$ rated users on letterboxd as "the most discerning users" and attempt to see if they have preditive power for awards via back testing. 
 
 ## Secondary Statistical Strategy?
-1. Assign suprisal scores for each reviewer and movie (Take the information content as $I=-\ln(\frac{\# ratings}{total}$)
-2. For a given review $R$, take the sum of the suprsal relative to the reviewer and movie, $I_{total}(R)=I_{reviewer}(R)+I_{movie(R)}$
-3a. Form a percentile aggregate based off of highest suprisal score (ie take the top 5% highest information reviewers on oscar winners, on oscar nominees etc)
-3b. Reweight reviewers based off of their information content, (ie form a weighted average based on who is high information)
-4. Use the above aggregates to predict future sucess. 
+1. Assign suprisal scores for each reviewer and movie (Take the information content as $I=-\ln(\frac{rating\ frequency}{total}$)
+2. For a given review $R$, take the sum of the suprsal relative to the reviewer and movie, $I_{total}(R)=I_{reviewer}(R)+I_{movie}(R)$
+3. Form a percentile aggregate based off of highest suprisal score (ie take the top 5% highest information reviewers on oscar winners, on oscar nominees etc)
+4. Make another aggegate by reweighting reviewers based off of their information content, (ie form a weighted average based on who is high information)
+5. Use the above aggregates to predict future sucess. 
 
 ## Tasks to do
 
