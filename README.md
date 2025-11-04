@@ -19,18 +19,3 @@ Question we are asking: Can large scale aggregates of review data predict critic
 3. Form a percentile aggregate based off of highest suprisal score (ie take the top 5% highest information reviewers on oscar winners, on oscar nominees etc)
 4. Make another aggegate by reweighting reviewers based off of their information content, (ie form a weighted average based on who is high information)
 5. Use the above aggregates to predict future sucess. 
-
-## Tasks to do
-
-~1. Build Movie histogram scraping script~ Done
-
-2. Build Individual reviewer histogram and detailed scraping script
-
-3. Build web navigating script, going from reviewer to reviewer, movie to movie etc.
-
-4. Collect data on awards and timings
-
-5. Build Data aggregating script
-
-6. Analyze data
-
