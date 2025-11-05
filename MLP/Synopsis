@@ -1,0 +1,5 @@
+stat.ipynb - Used to generate synthetic data to test negatives. We didnt use for the final result since we collected more data from nonaward winning movies
+
+MLP.ipynb - This script was used to format the data into MLP format (= movie won an award or not, etc)
+
+raw_data_visuals.ipynb - This script was used to generate the sparsity charts which were input into the final presentation
