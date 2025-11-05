@@ -1,0 +1,7 @@
+Review_Analysis_Simplified.ipynb - The script used to calculate the changes (if any) to a movies reviews over time after having won an award
+
+Post_Award_Review_Analysis.ipynb - An inferior form of Review_Analysis_Simplified.ipynb
+
+The rest of the files just consist of the calculated data. 
+Anytime there is an addition of the string 'Flip', this means taking the difference mean_new - mean_old 
+instead of mean_old - mean_new to make the data more interpretable
