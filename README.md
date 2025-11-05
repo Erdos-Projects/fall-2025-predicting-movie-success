@@ -1,10 +1,13 @@
 # fall-2025-predicting-movie-success
 Team project: fall-2025-predicting-movie-success
+Members: Connor Lockhart, Zhi Heng Liu, Jacob Kowalczyk, Samuel Bachhuber
 
 ## Project Defintion: 
 Question we are asking: Can large scale aggregates of review data predict critical movie success? 
 
-## 1st Ad-hoc Statistical Strategy
+The Oscars are the most prestigious film award, carrying significant financial consequences for their winners. As such, forecasts and predictions for winners are extremely popular. The  betting market for the 2025 Oscars best picture winner had volume in excess of $\$5,000,000$. Creating an Oscars prediction from the fundamentals of a movie is an immense and sophisticated qualitative analysis problem. Can utilizing social media review data create a quantitative predictive edge? 
+
+## Statistical Strategy
 1. Our goal will be to score individual reviewers based on how well they can predict critical movie success, in particular relative to a set of predetermined prestigious movie awards.
 2. Every reviewer will have an individual review distribution $f(user)$ consisting of their own reviews written for every movie while every movie will have a similar distribution $f(movie)$ consisting of every review for that movie.
 3. Fit all distibutions $f(user)$ and $f(movie)$ to normals to obtain the mean $\mu(user), \mu(movie)$ and standard deviation $\sigma(user),\sigma(movie)$. 
@@ -13,9 +16,9 @@ Question we are asking: Can large scale aggregates of review data predict critic
 6. Rank users by highest average $\mu(joint)$ of their $f_{score}$ distribution.
 7. Form an aggregate of the highest $n$ rated users on letterboxd as "the most discerning users" and attempt to see if they have preditive power for awards via back testing. 
 
-## Secondary Statistical Strategy?
+<!--## Secondary Statistical Strategy?
 1. Assign suprisal scores for each reviewer and movie (Take the information content as $I=-\ln(\frac{rating\ frequency}{total}$)
 2. For a given review $R$, take the sum of the suprsal relative to the reviewer and movie, $I_{total}(R)=I_{reviewer}(R)+I_{movie}(R)$
 3. Form a percentile aggregate based off of highest suprisal score (ie take the top 5% highest information reviewers on oscar winners, on oscar nominees etc)
 4. Make another aggegate by reweighting reviewers based off of their information content, (ie form a weighted average based on who is high information)
-5. Use the above aggregates to predict future sucess. 
+5. Use the above aggregates to predict future sucess. -->
