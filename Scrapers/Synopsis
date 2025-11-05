@@ -1,0 +1,5 @@
+Included are two of the scripts that we used to scrape.
+
+movie_review_adaptation.ipynb - The script used to gather the review data for all times on the specified movies
+
+scraper.ipynb - The script used to compile the users whose reviews we would scrape
